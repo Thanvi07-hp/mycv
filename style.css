@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+body{
+
+    background-color: #B4E9F3;
+    font-family: 'Playfair Display', serif;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: #52B38F;
+}
+.intro{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro img{
+    margin-top: 20px;
+    height: 350px;
+    width: 550px;
+}
+.cloud1{
+    position: absolute;
+    height: 100px;
+    width: 290px;
+    margin-left: 250px;
+    margin-top: 10px;
+    
+}
+.cloud2{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 75%;
+    height: 100px;
+    
+
+}
+.cloud3{
+    position: absolute;
+    height: 100px;
+    width: 180px;
+    margin-left: 120px;
+    margin-top: 150px;
+
+}
+.cloud4{
+    position: absolute;
+    height: 100px;
+    width: 190px;
+    margin-left: 500px;
+    margin-top: 80px;
+
+}
+
+hr{
+    border-style: none;
+    border-top: dotted;
+    margin: 20px;
+    color: #146fcb;
+    width: 60%;
+    border-width: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutme{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutme .rightimg{
+    margin-right: 40px;
+    height: 200px;
+    width: 200px;
+}
+.aboutme p{
+    font-size: 20px;
+}
+.aboutme .leftimg{
+    margin-left: 40px;
+    height: 200px;
+    width: 200px;
+}
+.bottomnavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: #52B38F;
+}
+.links{
+    
+    margin: 20px;
+    height: 40px;
+    width: 50px;
+}
+.rightimg:hover {
+    transition: all 0.3s ease-in-out;
+    height: 230px;
+    width: 230px;
+}
+.leftimg:hover {
+    transition: all 0.3s ease-in-out;
+    height: 230px;
+    width: 230px;
+}
+@media(max-width:500px){
+    .cloud1{
+        visibility: hidden;
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        margin-left: 230px;
+        margin-top: -40px;
+    }
+    .cloud2{
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 80px;    
+    }
+    .cloud3{
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        margin-left: 120px;
+        margin-top: 150px;
+    }
+    .cloud4{
+        visibility: hidden;
+        position: absolute;
+        height: 100px;
+        width: 190px;
+        margin-left: 500px;
+        margin-top: 80px;
+    }
+    body{
+        background-color: #B4E9F3;
+        font-family: 'Edu Tas Beginner';
+    }
+    hr{
+        border-style: none;
+        border-top: dotted;
+        margin: 20px;
+        color: #146fcb;
+        width: 90%;
+        border-width: 5px;
+    }
+    .intro img{
+        margin-top: 20px;
+        height: 290px;
+        width: 420px;
+    }
+    .aboutme{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutme p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .aboutme .rightimg{
+        margin-right: 40px;
+        height: 140px;
+        width: 140px;
+    }
+    .aboutme .leftimg{
+        margin-left: 40px;
+        height: 140px;
+        width: 140px;
+    }
+    .links{
+        margin: 20px;
+        height: 40px;
+        width: 50px;
+    }
+}
+
+
